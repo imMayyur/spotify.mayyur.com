@@ -31,7 +31,7 @@ function Header() {
             >
                 <Icon name="apps" size="3xl" color="gray" />
             </Button>
-            <img loading="lazy" className="w-12 h-12 ml-2 rounded-full cursor-pointer" alt="Profile Picture" />
+            <img loading="lazy" className="hidden w-12 h-12 ml-2 rounded-full cursor-pointer md:inline-flex" alt="Profile Picture" />
         </header>
     )
 }
