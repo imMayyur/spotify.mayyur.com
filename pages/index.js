@@ -9,9 +9,6 @@ import Modal from '@material-tailwind/react/Modal'
 import ModalBody from '@material-tailwind/react/ModalBody'
 import ModalFooter from '@material-tailwind/react/ModalFooter'
 import { useState } from 'react'
-import { db } from '../firebase'
-import firebase from 'firebase'
-import { useCollection, useCollectionOnce} from 'react-firebase-hooks/firestore'
 import DocumentRow from '../components/DocumentRow'
 
 export default function Home() {
